@@ -30,6 +30,12 @@
         tools:layout="@layout/fragment_lozova" />
 
     <fragment
+        android:id="@+id/nav_vv2"
+        android:name="com.firsov.mybook.ui.vv2.Vv2Fragment"
+        android:label="@string/menu_vv2"
+        tools:layout="@layout/fragment_vv2" />
+
+    <fragment
         android:id="@+id/nav_tn330z"
         android:name="com.firsov.mybook.ui.tn330z.Tn330zFragment"
         android:label="@string/menu_tn330z"
@@ -43,13 +49,31 @@
 
     <fragment
         android:id="@+id/nav_at2general"
-        android:name="com.firsov.mybook.ui.at2general.at2generalFragment"
+        android:name="com.firsov.mybook.ui.at2general.At2generalFragment"
         android:label="@string/menu_at2general"
         tools:layout="@layout/fragment_at2general" />
 
     <fragment
         android:id="@+id/nav_ret6701k"
-        android:name="com.firsov.mybook.ui.at2.Ret6701kFragment"
-        android:label="@string/menu_at2"
+        android:name="com.firsov.mybook.ui.ret6701k.Ret6701kFragment"
+        android:label="@string/menu_ret6701k"
         tools:layout="@layout/fragment_ret6701k" />
+
+    <fragment
+        android:id="@+id/nav_ret6702k"
+        android:name="com.firsov.mybook.ui.ret6702k.Ret6702kFragment"
+        android:label="@string/menu_ret6702k"
+        tools:layout="@layout/fragment_ret6702k" />
+
+    <fragment
+        android:id="@+id/nav_gz2at"
+        android:name="com.firsov.mybook.ui.gz2at.Gz2atFragment"
+        android:label="@string/menu_tz"
+        tools:layout="@layout/fragment_gz2at" />
+
+    <fragment
+        android:id="@+id/nav_cooling2at"
+        android:name="com.firsov.mybook.ui.cooling2at.Cooling2atFragment"
+        android:label="@string/menu_cool"
+        tools:layout="@layout/fragment_cooling2at" />
 </navigation>

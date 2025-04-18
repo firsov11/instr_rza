@@ -1,15 +1,15 @@
-package com.firsov.mybook.ui.at2
+package com.firsov.mybook.ui.gz2at
 
 import android.os.Bundle
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
 import androidx.fragment.app.Fragment
-import com.firsov.mybook.databinding.FragmentRet6701kBinding
+import com.firsov.mybook.databinding.FragmentGz2atBinding
 
-class Ret6701kFragment : Fragment() {
+class Gz2atFragment : Fragment() {
 
-    private var _binding: FragmentRet6701kBinding? = null
+    private var _binding: FragmentGz2atBinding? = null
     private val binding get() = _binding!!
 
     override fun onCreateView(
@@ -17,7 +17,7 @@ class Ret6701kFragment : Fragment() {
         container: ViewGroup?,
         savedInstanceState: Bundle?
     ): View {
-        _binding = FragmentRet6701kBinding.inflate(inflater, container, false)
+        _binding = FragmentGz2atBinding.inflate(inflater, container, false)
         val root: View = binding.root
 
         return root

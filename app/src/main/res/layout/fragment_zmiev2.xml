@@ -1,26 +1,108 @@
 <?xml version="1.0" encoding="utf-8"?>
 <ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".ui.zmiev2.Zmiev2Fragment">
 
-    <androidx.constraintlayout.widget.ConstraintLayout
+    <LinearLayout
+        android:id="@+id/zmiev2_container"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content">
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="16dp">
+
+        <ImageView
+            android:id="@+id/zmiev2_image"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:adjustViewBounds="true"
+            android:scaleType="fitCenter"
+            android:src="@drawable/zmiev2general"
+            android:contentDescription="@string/zmiev2general_image_desc"
+            android:layout_marginBottom="16dp" />
 
         <TextView
             android:id="@+id/text_zmiev2"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_marginStart="8dp"
-            android:layout_marginTop="8dp"
-            android:layout_marginEnd="8dp"
-            android:textSize="20sp"
+            android:textSize="16sp"
             android:gravity="start"
-            app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toTopOf="parent"
-            app:layout_constraintEnd_toEndOf="parent" />
-    </androidx.constraintlayout.widget.ConstraintLayout>
+            android:text="@string/zmiev2_part"
+            android:paddingBottom="16dp" />
+
+        <ImageView
+            android:id="@+id/zmiev2_image2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:adjustViewBounds="true"
+            android:scaleType="fitCenter"
+            android:src="@drawable/zmiev2tppu"
+            android:contentDescription="@string/zmiev2tppu_image_desc" />
+
+        <TextView
+            android:id="@+id/text_zmiev2_2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="16sp"
+            android:gravity="start"
+            android:text="@string/zmiev2_second_part"
+            android:paddingBottom="16dp" />
+
+        <ImageView
+            android:id="@+id/zmiev2_image3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:adjustViewBounds="true"
+            android:scaleType="fitCenter"
+            android:src="@drawable/zmiev2ru"
+            android:contentDescription="@string/zmiev2ru_image_desc" />
+
+        <TextView
+            android:id="@+id/text_zmiev2_3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="16sp"
+            android:gravity="start"
+            android:text="@string/zmiev2_third_part"
+            android:paddingBottom="16dp" />
+
+        <ImageView
+            android:id="@+id/zmiev2_image4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:adjustViewBounds="true"
+            android:scaleType="fitCenter"
+            android:src="@drawable/zmiev2orion"
+            android:contentDescription="@string/zmiev2orion_image_desc" />
+
+        <TextView
+            android:id="@+id/text_zmiev2_4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="16sp"
+            android:gravity="start"
+            android:text="@string/zmiev2_fourth_part"
+            android:paddingBottom="16dp" />
+
+        <ImageView
+            android:id="@+id/zmiev2_image5"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:adjustViewBounds="true"
+            android:scaleType="fitCenter"
+            android:src="@drawable/zmiev2kedr"
+            android:contentDescription="@string/zmiev2kedr_image_desc" />
+
+        <TextView
+            android:id="@+id/text_zmiev2_5"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="16sp"
+            android:gravity="start"
+            android:text="@string/zmiev2_fifth_part"
+            android:paddingBottom="16dp" />
+
+    </LinearLayout>
 </ScrollView>
+

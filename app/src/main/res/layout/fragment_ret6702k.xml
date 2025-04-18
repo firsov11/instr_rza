@@ -3,7 +3,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".ui.ret6701k.Ret6701kFragment">
+    tools:context=".ui.ret6702k.Ret6702kFragment">
 
     <LinearLayout
         android:id="@+id/at2_container"
@@ -14,56 +14,56 @@
 
 
         <TextView
-            android:id="@+id/ret6701k_text"
+            android:id="@+id/ret6702k_text"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:textSize="16sp"
-            android:text="@string/ret6701k_part"
+            android:text="@string/ret6702k_part"
             android:paddingBottom="16dp" />
 
         <ImageView
-            android:id="@+id/ret6701k_image_1"
+            android:id="@+id/ret6702k_image_1"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:adjustViewBounds="true"
             android:scaleType="fitCenter"
-            android:src="@drawable/ret6701k_1"
-            android:contentDescription="@string/ret6701k_image_desc" />
+            android:src="@drawable/ret6702k_1"
+            android:contentDescription="@string/ret6702k_image_desc" />
 
         <ImageView
-            android:id="@+id/ret6701k_image_2"
+            android:id="@+id/ret6702k_image_2"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:adjustViewBounds="true"
             android:scaleType="fitCenter"
-            android:src="@drawable/ret6701k_2"
-            android:contentDescription="@string/ret6701k_image2_desc" />
+            android:src="@drawable/ret6702k_2"
+            android:contentDescription="@string/ret6702k_image2_desc" />
 
         <ImageView
-            android:id="@+id/ret6701k_image_3"
+            android:id="@+id/ret6702k_image_3"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:adjustViewBounds="true"
             android:scaleType="fitCenter"
-            android:src="@drawable/ret6701k_3"
-            android:contentDescription="@string/ret6701k_image3_desc" />
+            android:src="@drawable/ret6702k_3"
+            android:contentDescription="@string/ret6702k_image3_desc" />
 
         <TextView
-            android:id="@+id/ret6701k_text2"
+            android:id="@+id/ret6702k_text2"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:textSize="16sp"
-            android:text="@string/ret6701k_second_part"
+            android:text="@string/ret6702k_second_part"
             android:paddingBottom="16dp" />
 
         <ImageView
-            android:id="@+id/ret6701k_image_4"
+            android:id="@+id/ret6702k_image_4"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:adjustViewBounds="true"
             android:scaleType="fitCenter"
-            android:src="@drawable/ret6701kled_1"
-            android:contentDescription="@string/ret6701kled_image1_desc" />
+            android:src="@drawable/ret6702kled_1"
+            android:contentDescription="@string/ret6702kled_image1_desc" />
 
         <ImageView
             android:id="@+id/ret6701k_image_5"
@@ -71,7 +71,7 @@
             android:layout_height="wrap_content"
             android:adjustViewBounds="true"
             android:scaleType="fitCenter"
-            android:src="@drawable/ret6701kled_2"
+            android:src="@drawable/ret6702kled_2"
             android:contentDescription="@string/ret6701kled_image2_desc" />
 
 
