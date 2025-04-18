@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_home"
+            android:icon="@drawable/ic_menu_camera"
+            android:title="@string/menu_home" />
+        <item
+            android:id="@+id/nav_general_part"
+            android:icon="@drawable/ic_menu_gallery"
+            android:title="@string/menu_general_part" />
+        <item
+            android:id="@+id/nav_zmiev2"
+            android:icon="@drawable/ic_menu_gallery"
+            android:title="@string/menu_zmiev2" />
+        <item
+            android:id="@+id/nav_lozova"
+            android:icon="@drawable/ic_menu_gallery"
+            android:title="@string/menu_lozova" />
+        <item
+            android:id="@+id/nav_separator1"
+            android:title="ТН-330 кВ"
+            android:enabled="false"
+            android:icon="@android:drawable/divider_horizontal_bright"
+            android:background="@android:color/darker_gray"
+            android:paddingStart="16dp"
+            android:paddingEnd="16dp"
+            android:textColor="@android:color/black" />
+        <item
+            android:id="@+id/nav_tn330z"
+            android:icon="@drawable/ic_menu_gallery"
+            android:title="@string/menu_tn330z" />
+        <item
+            android:id="@+id/nav_tn330l"
+            android:icon="@drawable/ic_menu_gallery"
+            android:title="@string/menu_tn330l" />
+        <item
+            android:id="@+id/nav_separator2"
+            android:title="2АТ АТДЦТН-200000"
+            android:enabled="false"
+            android:icon="@android:drawable/divider_horizontal_bright"
+            android:background="@android:color/darker_gray"
+            android:paddingStart="16dp"
+            android:paddingEnd="16dp"
+            android:textColor="@android:color/black" />
+        <item
+            android:id="@+id/nav_at2general"
+            android:icon="@drawable/ic_menu_gallery"
+            android:title="@string/menu_at2general" />
+        <item
+            android:id="@+id/nav_ret6701k"
+            android:icon="@drawable/ic_menu_gallery"
+            android:title="@string/menu_at2" />
+    </group>
+</menu>

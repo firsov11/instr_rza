@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ui.at2general.at2generalFragment">
+
+    <LinearLayout
+        android:id="@+id/at2_container"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="16dp">
+
+        <ImageView
+            android:id="@+id/at2general"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:adjustViewBounds="true"
+            android:scaleType="fitCenter"
+            android:src="@drawable/at2general"
+            android:contentDescription="@string/at2general"
+            android:paddingBottom="24dp" />
+
+        <ImageView
+            android:id="@+id/at2_image_1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:adjustViewBounds="true"
+            android:scaleType="fitCenter"
+            android:src="@drawable/tt2at_1"
+            android:contentDescription="@string/tt2at_image_desc"
+            android:paddingBottom="24dp" />
+        <ImageView
+            android:id="@+id/at2_image_2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:adjustViewBounds="true"
+            android:scaleType="fitCenter"
+            android:src="@drawable/tt2at_2"
+            android:contentDescription="@string/tt2at_image2_desc" />
+
+    </LinearLayout>
+</ScrollView>

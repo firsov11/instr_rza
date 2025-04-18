@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/nav_home">
+
+    <fragment
+        android:id="@+id/nav_home"
+        android:name="com.firsov.mybook.ui.home.HomeFragment"
+        android:label="@string/menu_home"
+        tools:layout="@layout/fragment_home" />
+
+    <fragment
+        android:id="@+id/nav_general_part"
+        android:name="com.firsov.mybook.ui.general_part.GeneralPartFragment"
+        android:label="@string/menu_general_part"
+        tools:layout="@layout/fragment_general_part" />
+
+    <fragment
+        android:id="@+id/nav_zmiev2"
+        android:name="com.firsov.mybook.ui.zmiev2.Zmiev2Fragment"
+        android:label="@string/menu_zmiev2"
+        tools:layout="@layout/fragment_zmiev2" />
+
+    <fragment
+        android:id="@+id/nav_lozova"
+        android:name="com.firsov.mybook.ui.lozova.LozovaFragment"
+        android:label="@string/menu_lozova"
+        tools:layout="@layout/fragment_lozova" />
+
+    <fragment
+        android:id="@+id/nav_tn330z"
+        android:name="com.firsov.mybook.ui.tn330z.Tn330zFragment"
+        android:label="@string/menu_tn330z"
+        tools:layout="@layout/fragment_tn330z" />
+
+    <fragment
+        android:id="@+id/nav_tn330l"
+        android:name="com.firsov.mybook.ui.tn330l.Tn330lFragment"
+        android:label="@string/menu_tn330l"
+        tools:layout="@layout/fragment_tn330l" />
+
+    <fragment
+        android:id="@+id/nav_at2general"
+        android:name="com.firsov.mybook.ui.at2general.at2generalFragment"
+        android:label="@string/menu_at2general"
+        tools:layout="@layout/fragment_at2general" />
+
+    <fragment
+        android:id="@+id/nav_ret6701k"
+        android:name="com.firsov.mybook.ui.at2.Ret6701kFragment"
+        android:label="@string/menu_at2"
+        tools:layout="@layout/fragment_ret6701k" />
+</navigation>

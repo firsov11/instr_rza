@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ui.at2.Ret6701kFragment">
+
+    <LinearLayout
+        android:id="@+id/at2_container"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="16dp">
+
+
+        <TextView
+            android:id="@+id/at2_second_part"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="18sp"
+            android:text="@string/at2_second_part"
+            android:paddingBottom="16dp" />
+
+        <TextView
+            android:id="@+id/at2_third_part"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="18sp"
+            android:text="@string/at2_third_part"
+            android:paddingBottom="16dp" />
+
+        <ImageView
+            android:id="@+id/ret6701k_image_1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:adjustViewBounds="true"
+            android:scaleType="fitCenter"
+            android:src="@drawable/ret6701k_1"
+            android:contentDescription="@string/ret6701k_image_desc" />
+
+        <ImageView
+            android:id="@+id/ret6701k_image_2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:adjustViewBounds="true"
+            android:scaleType="fitCenter"
+            android:src="@drawable/ret6701k_2"
+            android:contentDescription="@string/ret6701k_image2_desc" />
+
+
+
+    </LinearLayout>
+</ScrollView>

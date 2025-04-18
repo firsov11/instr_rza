@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ui.tn330l.Tn330lFragment">
+
+    <LinearLayout
+        android:id="@+id/tn330l_container"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="8dp">
+
+        <TextView
+            android:id="@+id/text_tn330"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="16sp"
+            android:gravity="start"
+            android:text="@string/tn330_part"
+            android:layout_marginBottom="8dp" />
+
+        <ImageView
+            android:id="@+id/tn330l_image"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:adjustViewBounds="true"
+            android:scaleType="fitCenter"
+            android:src="@drawable/tn330l"
+            android:contentDescription="@string/tn330l_image_desc"
+            android:layout_marginBottom="8dp" />
+
+        <TextView
+            android:id="@+id/text_tn330l"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="16sp"
+            android:gravity="start"
+            android:text="@string/tn330l_part" />
+
+    </LinearLayout>
+</ScrollView>
